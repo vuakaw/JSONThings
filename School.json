@@ -1,0 +1,40 @@
+{
+  "team" : "Desarrolladores",
+  "homeTown" : "Orizaba",
+  "formed" : 2022,
+  "secretBase" : "Casa",
+  "active" : true,
+  "members" : [
+    {
+      "nombre" : "Sergio",
+      "edad" : 27,
+      "puesto" : "Desarrollador",
+      "skills" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },
+    {
+      "nombre" : "Gil",
+      "edad" : 39,
+      "puesto" : "Tester",
+      "skills" : [
+        "SomeTesterTool1",
+        "SomeTesterTool2",
+        "SomeTesterTool3"
+      ]
+    },
+    {
+      "nombre" : "Mauricio",
+      "age" : 44,
+      "puesto" : "Analista de sistemas",
+      "skills" : [
+        "SomeAnalystTool1",
+        "SomeAnalystTool2",
+        "SomeAnalystTool3",
+        "SomeAnalystTool4"
+      ]
+    }
+  ]
+}
