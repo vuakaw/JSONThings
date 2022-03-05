@@ -56,13 +56,13 @@ function showHeroes(jsonObj) {
         section.appendChild(myArticle);
     }
 }
-request.open('GET', requestURL);
-request.responseType = 'text'; // recibimos una cadena de tipo "string"
-request.send();
+// request.open('GET', requestURL);
+// request.responseType = 'text'; // recibimos una cadena de tipo "string"
+// request.send();
 
-request.onload = function() {
-    const superHeroesText = request.response; // cogemos la cadena de response
-    const superHeroes = JSON.parse(superHeroesText); // la convertimos a objeto
-    populateHeader(superHeroes);
-    showHeroes(superHeroes);
-}
+// request.onload = function() {
+//     const superHeroesText = request.response; // cogemos la cadena de response
+//     const superHeroes = JSON.parse(superHeroesText); // la convertimos a objeto
+//     populateHeader(superHeroes);
+//     showHeroes(superHeroes);
+//}
