@@ -6,19 +6,19 @@
   "active" : true,
   "members" : [
     {
-      "nombre" : "Sergio",
-      "edad" : 27,
-      "puesto" : "Desarrollador",
+      "name" : "Sergio",
+      "age" : 27,
+      "position" : "Desarrollador",
       "skills" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "SomeDeveloperSkill1",
+        "SomeDeveloperSkill2",
+        "SomeDeveloperSkill3"
       ]
     },
     {
-      "nombre" : "Gil",
-      "edad" : 39,
-      "puesto" : "Tester",
+      "name" : "Gil",
+      "age" : 39,
+      "position" : "Tester",
       "skills" : [
         "SomeTesterTool1",
         "SomeTesterTool2",
@@ -26,9 +26,9 @@
       ]
     },
     {
-      "nombre" : "Mauricio",
+      "name" : "Mauricio",
       "age" : 44,
-      "puesto" : "Analista de sistemas",
+      "position" : "Analista de sistemas",
       "skills" : [
         "SomeAnalystTool1",
         "SomeAnalystTool2",
