@@ -27,13 +27,15 @@ function showHeroes(jsonObj) {
     for (var i = 0; i < heroes.length; i++) {
         const myArticle = document.createElement('article');
         const myH2 = document.createElement('h2');
+        const myPara0 = document.createElement('p');
         const myPara1 = document.createElement('p');
         const myPara2 = document.createElement('p');
         const myPara3 = document.createElement('p');
         const myList = document.createElement('ul');
 
         myH2.textContent = heroes[i].name;
-        myPara1.textContent = 'Puesto: ' + heroes[i].nombre;
+        myPara0.textContent = 'Nombre: ' + heroes[i].name;
+        myPara1.textContent = 'Puesto: ' + heroes[i].position;
         myPara2.textContent = 'Edad: ' + heroes[i].age;
         myPara3.textContent = 'Habilidades conocidas:';
 
@@ -45,6 +47,7 @@ function showHeroes(jsonObj) {
         }
 
         myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara0);
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
